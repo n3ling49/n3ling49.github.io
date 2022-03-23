@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+nav {
+    text-align: center;
+    width: 100%;
+    background-color: rgb(40, 40, 40);
+    position: sticky;
+    top: 0;
+    height: 100px;
+    box-shadow: 0 3px 10px black;
+}
+
+.socials {
+    height: 5%;
+    width: 100%;
+}
+
+.socials > a {
+    position: relative;
+    top: 10%;
+    left: 90%;
+    font-size: 150%;
+    text-decoration: none;
+}
+
+.socials .onlyfans{
+    font-size: 15px;
+    color: grey;
+}
+
+.pagetext {
+    margin: 0 30%;
+    color: white;
+    background-color:rgb(78, 78, 78);
+    padding: 40px 0;
+}
+
+article a {
+    text-decoration: none;
+    color: white;
+}
+
+.bannertitle {
+    position: absolute;
+    left: 5%;
+    top: 3px;
+}
+
+nav img {
+    position: static;
+    height: 100px;
+    width: 200px;
+}
+
+nav img:hover {
+    position: static;
+    height: 100px;
+    width: 200px;
+    filter: brightness(0) invert(1);
+}
+
+.main {
+    background-color: rgb(78, 78, 78);
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 0;
+    height: 40px;
+}
