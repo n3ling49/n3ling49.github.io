@@ -1,3 +1,3 @@
 # n3ling49.github.io
 
-This is going to be my personal website.
+A simple and clean personal website to offer my web development services at.
