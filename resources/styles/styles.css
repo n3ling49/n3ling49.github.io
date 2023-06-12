@@ -1,0 +1,116 @@
+@import url("./fonts/Inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 0 20%;
+}
+
+h1 {
+  padding-top: 3rem;
+}
+
+footer {
+  height: 5rem;
+  background-color: black;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer * {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+footer a {
+  text-decoration: none;
+  margin-left: 1.25rem;
+}
+
+footer nav {
+  margin-right: 2.5rem;
+}
+
+footer p {
+  margin-left: 2.5rem;
+}
+
+main a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.introduction {
+  padding: 2rem 0;
+}
+
+.profilewrapper {
+  position: absolute;
+}
+
+.profile {
+  position: relative;
+  left: -30%;
+}
+
+.profile img {
+  width: 20%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.skillset {
+  display: flex;
+  gap: 2.5rem;
+  padding: 0 0 2rem;
+}
+
+.skillset img {
+  height: 4.6875rem;
+  width: auto;
+}
+
+.portfolio {
+  display: flex;
+  padding: 0 0 2rem;
+}
+
+.portfolio a {
+  width: 33.33%;
+  background-color: black;
+}
+
+.portfolio a:hover {
+  z-index: 5;
+  scale: 1.1;
+  transition: 0.5s;
+}
+
+.portfolio img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.portfolio img:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.contact {
+  margin-bottom: 5rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
