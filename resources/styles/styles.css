@@ -145,3 +145,88 @@ main a {
 footer a:hover {
   text-decoration: underline;
 }
+
+@media only screen and (max-width: 1300px) {
+  .profilewrapper {
+    position: static;
+    margin-bottom: 2.5rem;
+  }
+
+  .profile {
+    position: static;
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile img {
+    width: 7.5rem;
+  }
+
+  .socials {
+    width: 7.5rem;
+  }
+
+  main {
+    padding: 0 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .profilewrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .socials {
+    width: 100%;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  footer nav {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  footer p {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .skillset {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .languageswitch {
+    padding: 2rem 5%;
+  }
+
+  .skillset img {
+    height: 3rem;
+  }
+
+  .portfolio {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .portfolio a {
+    width: 100%;
+  }
+
+  .portfolio img {
+    height: 100%;
+    width: 100%;
+  }
+}
