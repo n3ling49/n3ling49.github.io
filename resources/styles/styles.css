@@ -67,6 +67,19 @@ main a {
   border-radius: 50%;
 }
 
+.socials {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  padding-top: 1.5rem;
+}
+
+.socials i:hover {
+  scale: 1.1;
+  transition: 0.5s;
+}
+
 .skillset {
   display: flex;
   gap: 2.5rem;
