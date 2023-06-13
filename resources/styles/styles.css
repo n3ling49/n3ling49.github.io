@@ -158,7 +158,7 @@ footer a:hover {
   }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .profile img {
     width: 7.5rem;
   }
@@ -198,6 +198,27 @@ footer a:hover {
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .portfolio {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .portfolio a {
+    width: 100%;
+  }
+
+  .portfolio img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .portfolio a:hover {
+    scale: 1;
+  }
+}
+
 @media only screen and (max-width: 900px) {
   .skillset {
     flex-wrap: wrap;
@@ -213,20 +234,5 @@ footer a:hover {
 
   .skillset img {
     height: 3rem;
-  }
-
-  .portfolio {
-    flex-direction: column;
-    align-items: center;
-    gap: 1rem;
-  }
-
-  .portfolio a {
-    width: 100%;
-  }
-
-  .portfolio img {
-    height: 100%;
-    width: 100%;
   }
 }
