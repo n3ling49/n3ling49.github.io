@@ -81,7 +81,7 @@
         <p>
           Mehr Infos gibt es auf <a href="https://www.tennon.io">tennon.io</a> oder kontaktieren Sie
           uns direkt über
-          <a href="mailto:kontakt@tennon.io">kontakt@tennon.io</a>
+          <a href="" id="contact"></a>
         </p>
       </section>
     </main>
@@ -94,3 +94,12 @@
     </footer>
   </body>
 </html>
+
+<script>
+  let m = "kontak";
+  let n = "t" + String.fromCharCode(64) + "tenno";
+  let o = "n.io";
+  let element = document.getElementById("contact");
+  element.href = "mai" + "lto" + String.fromCharCode(58) + m + n + o;
+  element.innerHTML = m + n + o;
+</script>
